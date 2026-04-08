@@ -31,6 +31,10 @@ db.serialize(() => {
 
 });
 
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + '/login.html');
+});
+
 
 app.get('/records/:username', (req, res) => {
     const username = req.params.username;
