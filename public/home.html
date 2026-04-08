@@ -1,0 +1,72 @@
+<link rel="stylesheet" href="style.css">
+<div class="container">
+
+<div class="nav">
+  
+<a href="dashboard.html">Dashboard</a>
+<a href="home.html" onclick="clearEdit()">Manage Job Applications</a>
+<a href="profile.html">User Profile</a>
+<a href="login.html">Logout</a>
+</div>
+<h3 id="currentUser"></h3>
+<h2>Manage Job Applications</h2>
+
+<label>Date</label>
+<input id="Date" type="datetime-local">
+
+<label>Company</label>
+<input id="Company">
+
+<label>URL</label>
+<input id="URL">
+
+<label>Job Title</label>
+<input id="JobTitle">
+
+
+<label>Job Description</label>
+<textarea id="JobDescription"></textarea>
+
+<label>Job Requirement</label>
+<textarea id="JobRequirement"></textarea>
+
+<label>Response Status</label>
+<select id="Responsestatus">
+<option>Sorry - Bye Bye</option>
+<option>Advance to Next Round</option>
+<option>No Response Yet</option>
+</select>
+
+<label>Applied Status</label>
+<select id="AppliedStatus">
+<option>Applied</option>
+<option>Reviewed</option>
+<option>Interested</option>
+</select>
+<br></br>
+
+<div id="buttonContainer">
+    <button id="addBtn" onclick="add()">Add</button>
+    <button id="updateBtn" onclick="update()" style="display:none;">Update</button>
+    <button id="cancelBtn" onclick="cancelEdit()" style="display:none;">Cancel</button>
+</div>
+ 
+
+<table id="table">
+<thead>
+<tr>
+  <th onclick="sortByDate()">Date ⬍</th>
+  <th>Company</th>
+  <th>URL</th>
+  <th>Job Title</th>
+  <th>Applied Status</th>
+  <th>Response Status</th>
+  <th></th>
+   <th></th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+
+</div>
+<script src="script.js"></script>

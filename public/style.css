@@ -1,0 +1,30 @@
+body { font-family: Arial; background:#f4f6f8; padding:20px;}
+.container { max-width:9000px; margin:auto; background:white; padding:20px; border-radius:10px;}
+label { display:block; margin-top:10px; font-weight:bold;}
+input, select, textarea { margin-top:5px; padding:8px; width:50%;}
+button { padding:10px; margin-top:10px; cursor:pointer;}
+table { width:100%; border-collapse: collapse; margin-top:15px;}
+td, th { border:1px solid #ccc; padding:8px;}
+.nav { margin-bottom:15px;}
+.nav a { margin-right:15px; text-decoration:none; color:blue;}
+#password {
+  margin-bottom: 15px; /* adds space below the input */
+  display: block;      /* forces it onto its own line */
+}
+.url-link {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.url-link:hover {
+    text-decoration: underline;
+}
+
+#dashboardTable tr {
+    cursor: pointer;
+}
+
+#dashboardTable tr:hover {
+    background-color: #f0f8ff;
+}
