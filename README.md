@@ -1,5 +1,7 @@
-To run this web application:  Launch: https://job-tracker-v2-tlpo.onrender.com/login.html 
 
-JobTracker is a utility-focused web application designed to help job seekers manage their pipeline in one centralized location. This tool was initially built as a one-day project to rapidly prototype a solution for tracking application links, submission timelines, and status updates. It serves as a live environment for mastering modern tools, including Playwright for end-to-end testing and Generative AI for automated narrative creation.
+You can run the v2 version of the job tracker here:
+https://job-tracker-v2-tlpo.onrender.com/login.html
 
-I am continuously evolving this project to take the application to the next level, currently focusing on pioneering AI-driven automation suites to sharpen both my development and QA engineering capabilities
+Just a quick note — in this v2 version, any data you enter will be lost if the environment is refreshed or redeployed since it doesn’t use persistent storage.
+
+If you want a version where data is saved properly, I recommend using v3 instead, where persistence has been improved so your entries won’t be lost.
